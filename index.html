@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NSDL</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div class="main_container">
+      <div class="heading_logo">
+        <h3>Tax Information Network of Income Tax Department</h3>
+      </div>
+      <div class="nav_container">
+        <div class="sub_nav_container">
+          <a href="">home</a>
+          <span>/</span>
+          <a href="">login</a>
+        </div>
+      </div>
+      <!-- heading part end -->
+      <!-- body part start -->
+      <div class="body_container">
+        <div class="title_container">
+          <h3>Online PAN Application</h3>
+          <p>
+            As per ITD guidelines,'Request for New PAN Card or/and Changes or
+            Correction in PAN Data' application is presently to be used only for
+            update/correction in PAN database. For procedure to link Aadhaar
+            with PAN, please click here.
+          </p>
+          <br />
+          <p>
+            As per provisions of Section 272B of the Income Tax Act., 1961, a
+            penalty of ₹ 10,000 can be levied on possession of more than one
+            PAN.
+          </p>
+          <hr />
+        </div>
+        <!-- title div close -->
+        <div class="buttom_container">
+          <button id="apply_button">Apply Online</button>
+          <button id="ragister_button">Ragister user</button>
+        </div>
+        <!-- button container end -->
+        <div class="application">
+          <div class="application_type">
+            <label for="">Application Type <sup id="sup">*</sup></label>
+            <select name="" id="">
+              <option value="">----Please Select</option>
+              <option value="">New PAN - Indian Citizen(Form 49A)</option>
+              <option value="">New PAN - Foreign Citizen (form 49AA)</option>
+              <option value="">
+                Changes or Correction in existing PAN Data / reprint of PAN Card
+                (No changes in existing Pan Data)
+              </option>
+            </select>
+            <div class="categoery_type">
+              <label for="">Category Type<sup id="sup">*</sup></label>
+            </div>
+            <div class="categoery_type">
+              <select>
+                <option value="">----Please Select----</option>
+                <option value="">INDIVIDUAL</option>
+                <option value="">ASSOCIATION OF PERSONS</option>
+                <option value="">BODY OF INDIVIDUALS</option>
+                <option value="">COMPANY</option>
+                <option value="">TRUST</option>
+                <option value="">LIMITED LIABILITY</option>
+                <option value="">PARTNERSHIP</option>
+                <option value="">FIRM</option>
+                <option value="">GOVERNMENT</option>
+                <option value="">HINDU UNDIVIDED FAMILY</option>
+                <option value="">ARTIFICIAL JURIDICAL PERSON</option>
+                <option value="">LOCAL AUTHORITY</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- application type completed -->
+        <!-- application information start -->
+        <h3 id="application_heading">Application Information</h3>
+        <div class="application_info_container">
+          <div class="tittle_info">
+            <label for="">Title <sup id="sup">*</sup></label>
+            <select name="" id="">
+              <option value="">----please select----</option>
+              <option value="">M/s</option></select
+            ><br /><br />
+          </div>
+          <div class="personal_info_container">
+            <div class="name_container">
+              <label for="">Last Name </label>
+              <label for="">First Name</label>
+              <label for="">Middle Name</label>
+            </div>
+            <div class="name_container">
+              <input type="text" />
+              <input type="text" />
+              <input type="text" />
+            </div>
+            <div class="name_container">
+              <label for="">Date of Birth</label>
+              <label for="">Email i'd</label>
+              <label for="">Mobile number</label>
+            </div>
+            <div class="name_container">
+              <input type="text" />
+              <input type="text" />
+              <input type="text" />
+            </div>
+          </div>
+          <!-- personal info closed -->
+          <div class="term_info">
+            <input type="Checkbox" />
+            <p>
+              By submitting data to us and/or using our Protean e-Gov TIN web
+              site
+              https://www.onlineservices.Protean.com/paam/endUserRegisterContact.html
+              you give your consent that all personal data/information that you
+              submit to avail tax related services from Protean eGov
+              Technologies Limited may be received, stored, processed,
+              transmitted and or made available for view /use as mandated by law
+              or otherwise, shall be dealt with by us in the manner and for the
+              purposes specified / as described in the privacy policy or as
+              mandated by law.
+            </p>
+          </div>
+        </div>
+        <br /><br />
+        <!-- application onformation completed -->
+        <button id="reset_btn">Reset</button>
+        <button id="submit_btn">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
